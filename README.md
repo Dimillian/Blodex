@@ -1,3 +1,5 @@
+![Blodex](docs/assets/Blodex.png)
+
 # Blodex
 
 Isometric fantasy hack-and-slash MVP built with Phaser + TypeScript in a pnpm workspace.
