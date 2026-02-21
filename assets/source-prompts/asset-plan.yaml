@@ -1,0 +1,204 @@
+styleTag: painterly-dark-fantasy-v2
+useCase: stylized-concept
+defaults:
+  size: 1024x1024
+  quality: high
+  background: transparent
+  outputFormat: png
+assets:
+  - id: player_vanguard
+    category: player_sprite
+    outputName: player_vanguard.png
+    prompt: "Isometric hooded knight vanguard with halberd and kite shield, grounded battle-ready stance, full-body game sprite concept"
+    subject: "single armored vanguard hero with closed visor helm, halberd, and shield"
+    style: "painterly dark fantasy concept art with gritty medieval realism"
+    composition: "centered full-body portrait, isolated subject"
+    lighting: "dramatic but restrained top-left key light with soft bounce"
+    palette: "aged steel grays and tarnished bronze accents"
+    materials: "weathered plate armor, worn leather straps, frayed cloth"
+    constraints: "original dark fantasy IP; readable silhouette at gameplay scale; isolated cutout; transparent background; no logos; no text; no watermark"
+    avoid: "solid color backdrops, environment scenery, neon highlights, glossy plastic look"
+
+  - id: monster_melee_01
+    category: monster_sprite
+    outputName: monster_melee_01.png
+    prompt: "Isometric feral crypt hound enemy, hostile crouched pose, game sprite concept"
+    subject: "undead hound-like melee monster"
+    style: "painterly dark fantasy"
+    composition: "single isolated subject centered"
+    lighting: "dim ambient with subtle edge light"
+    palette: "ashen browns and desaturated crimson"
+    materials: "ragged fur and exposed bone"
+    constraints: "readable silhouette at gameplay scale; isolated cutout; transparent background; no logos; no text; no watermark"
+    avoid: "background scenery, ground planes, glow-heavy effects"
+
+  - id: monster_ranged_01
+    category: monster_sprite
+    outputName: monster_ranged_01.png
+    prompt: "Isometric ash acolyte caster enemy with warped staff, game sprite concept"
+    subject: "hooded cult caster"
+    style: "painterly dark fantasy"
+    composition: "single isolated subject centered"
+    lighting: "subtle magical backlight"
+    palette: "muted violet, charcoal, ash gray"
+    materials: "cloth robes and scorched wood staff"
+    constraints: "readable silhouette at gameplay scale; isolated cutout; transparent background; no logos; no text; no watermark"
+    avoid: "background scenery, text overlays"
+
+  - id: monster_elite_01
+    category: monster_sprite
+    outputName: monster_elite_01.png
+    prompt: "Isometric armored revenant brute enemy, heavy stance with oversized weapon, game sprite concept"
+    subject: "large elite bruiser"
+    style: "painterly dark fantasy"
+    composition: "single isolated subject centered"
+    lighting: "hard directional light with subtle bounce"
+    palette: "dark steel, rust brown, ember accents"
+    materials: "cracked plate armor and corroded metal"
+    constraints: "readable silhouette at gameplay scale; isolated cutout; transparent background; no logos; no text; no watermark"
+    avoid: "background scenery, clutter"
+
+  - id: tile_floor_01
+    category: tile
+    outputName: tile_floor_01.png
+    prompt: "Seamless isometric dungeon floor stone tile texture"
+    subject: "worn cathedral flagstones"
+    style: "painterly game texture"
+    composition: "single tile texture"
+    lighting: "neutral flat lighting"
+    palette: "cold gray-green stone"
+    materials: "chipped stone with grime"
+    constraints: "seamless edges; no focal object; no text; no watermark"
+    background: opaque
+
+  - id: item_weapon_01
+    category: item_icon
+    outputName: item_weapon_01.png
+    prompt: "Fantasy RPG one-handed sword item icon, centered"
+    subject: "worn sabre with nicked edge"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft studio key"
+    palette: "steel gray and aged bronze"
+    materials: "weathered steel and leather wrap"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_weapon_02
+    category: item_icon
+    outputName: item_weapon_02.png
+    prompt: "Fantasy RPG polearm item icon, centered"
+    subject: "dark halberd with iron shaft fittings"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft directional lighting"
+    palette: "charcoal steel and muted brass"
+    materials: "forged metal and wrapped wood"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_weapon_03
+    category: item_icon
+    outputName: item_weapon_03.png
+    prompt: "Fantasy RPG greatsword item icon, centered"
+    subject: "broad two-handed blade with etched fuller"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft directional lighting"
+    palette: "cold steel and ember bronze"
+    materials: "tempered steel"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_helm_01
+    category: item_icon
+    outputName: item_helm_01.png
+    prompt: "Fantasy RPG helm item icon, centered"
+    subject: "grim closed-face helm"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "controlled soft highlight"
+    palette: "dark iron and muted gold trim"
+    materials: "worn steel"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_helm_02
+    category: item_icon
+    outputName: item_helm_02.png
+    prompt: "Fantasy RPG elite helm item icon, centered"
+    subject: "spiked revenant mask helm"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "dramatic rim highlight"
+    palette: "ash steel and ember red accents"
+    materials: "corroded metal"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_chest_01
+    category: item_icon
+    outputName: item_chest_01.png
+    prompt: "Fantasy RPG chest armor item icon, centered"
+    subject: "layered mail and plate cuirass"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft controlled lighting"
+    palette: "iron gray and desaturated leather brown"
+    materials: "chainmail and leather"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_chest_02
+    category: item_icon
+    outputName: item_chest_02.png
+    prompt: "Fantasy RPG rare chest armor item icon, centered"
+    subject: "ornate oathbound cuirass with heavy pauldrons"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft directional highlight"
+    palette: "dark steel with gold edging"
+    materials: "engraved metal and leather"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_boots_01
+    category: item_icon
+    outputName: item_boots_01.png
+    prompt: "Fantasy RPG boots item icon, centered"
+    subject: "worn traveler boots"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft key light"
+    palette: "dark leather and muted steel"
+    materials: "stitched leather"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_boots_02
+    category: item_icon
+    outputName: item_boots_02.png
+    prompt: "Fantasy RPG armored greaves item icon, centered"
+    subject: "heavy catacomb greaves"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft directional"
+    palette: "charcoal steel and tarnished brass"
+    materials: "plate metal"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_ring_01
+    category: item_icon
+    outputName: item_ring_01.png
+    prompt: "Fantasy RPG ring item icon, centered"
+    subject: "engraved oath ring with dark gem"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft studio light"
+    palette: "tarnished gold and deep crimson"
+    materials: "aged metal and polished gem"
+    constraints: "transparent background; no text; no logos; no watermark"
+
+  - id: item_ring_02
+    category: item_icon
+    outputName: item_ring_02.png
+    prompt: "Fantasy RPG rare ring item icon, centered"
+    subject: "bloodsigil band with etched runes"
+    style: "painted game UI icon"
+    composition: "single isolated icon with generous padding"
+    lighting: "soft studio light"
+    palette: "blackened gold and crimson gemstone"
+    materials: "aged metal and gemstone"
+    constraints: "transparent background; no text; no logos; no watermark"

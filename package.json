@@ -1,0 +1,16 @@
+{
+  "name": "blodex",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.23.0",
+  "scripts": {
+    "dev": "pnpm --filter @blodex/game-client dev",
+    "build": "pnpm -r build",
+    "test": "pnpm --filter @blodex/core test",
+    "lint": "pnpm -r lint",
+    "check": "pnpm -r typecheck",
+    "assets:compile": "pnpm --filter @blodex/tooling build && pnpm --filter @blodex/tooling assets:plan",
+    "assets:generate": "pnpm assets:compile && ./scripts/generate_assets.sh",
+    "assets:validate": "pnpm --filter @blodex/tooling build && pnpm --filter @blodex/tooling assets:validate"
+  }
+}

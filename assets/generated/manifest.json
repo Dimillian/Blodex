@@ -1,0 +1,162 @@
+[
+  {
+    "id": "player_vanguard",
+    "category": "player_sprite",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "1ea8c5e758",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/player_vanguard.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "monster_melee_01",
+    "category": "monster_sprite",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "274946ef4e",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/monster_melee_01.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "monster_ranged_01",
+    "category": "monster_sprite",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "d97940ab67",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/monster_ranged_01.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "monster_elite_01",
+    "category": "monster_sprite",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "66946d88bc",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/monster_elite_01.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "tile_floor_01",
+    "category": "tile",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "67de406de1",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/tile_floor_01.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "item_weapon_01",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "544fb20664",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_weapon_01.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_weapon_02",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "35f26fe530",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_weapon_02.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_weapon_03",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "3f39e5dc15",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_weapon_03.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_helm_01",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "df143928b3",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_helm_01.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_helm_02",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "c1916455df",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_helm_02.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_chest_01",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "deeb7a960a",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_chest_01.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_chest_02",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "77fcf9383d",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_chest_02.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_boots_01",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "c108d42f2f",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_boots_01.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_boots_02",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "bccbc9296e",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_boots_02.png",
+    "license": "generated-original",
+    "revision": 1
+  },
+  {
+    "id": "item_ring_01",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "b9c6024ef5",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_ring_01.png",
+    "license": "generated-original",
+    "revision": 2
+  },
+  {
+    "id": "item_ring_02",
+    "category": "item_icon",
+    "styleTag": "painterly-dark-fantasy-v2",
+    "promptHash": "8dfca0e340",
+    "sourcePath": "assets/source-prompts/asset-plan.yaml",
+    "outputPath": "apps/game-client/public/generated/item_ring_02.png",
+    "license": "generated-original",
+    "revision": 1
+  }
+]

@@ -1,0 +1,47 @@
+import Phaser from "phaser";
+export declare class DungeonScene extends Phaser.Scene {
+    private static readonly ENTITY_DEPTH_OFFSET;
+    private readonly rng;
+    private hud;
+    private meta;
+    private run;
+    private dungeon;
+    private player;
+    private playerSprite;
+    private monsters;
+    private loot;
+    private path;
+    private attackTargetId;
+    private origin;
+    private worldBounds;
+    private readonly tileWidth;
+    private readonly tileHeight;
+    private playerYOffset;
+    private nextPlayerAttackAt;
+    private hudDirty;
+    private runEnded;
+    constructor();
+    preload(): void;
+    create(): void;
+    update(_: number, deltaMs: number): void;
+    private bootstrapRun;
+    private computeWorldOriginAndBounds;
+    private configureCamera;
+    private drawDungeon;
+    private spawnPlayer;
+    private generateMonsterSpawnPoints;
+    private spawnMonsters;
+    private computePathTo;
+    private clampToWalkable;
+    private updatePlayerMovement;
+    private updateCombat;
+    private updateMonsters;
+    private collectNearbyLoot;
+    private pickMonsterAt;
+    private finishRun;
+    private resetRun;
+    private renderHud;
+    private loadMeta;
+    private saveMeta;
+}
+//# sourceMappingURL=DungeonScene.d.ts.map
